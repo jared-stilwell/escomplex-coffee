@@ -2,14 +2,14 @@
   "name": "escomplex-coffee",
   "version": "0.3.0",
   "description": "Software complexity analysis for CoffeeScript projects. CoffeeScript-specific wrapper around escomplex.",
-  "homepage": "https://github.com/philbooth/escomplex-coffee",
-  "bugs": "https://github.com/philbooth/escomplex-coffee/issues",
+  "homepage": "https://github.com/jared-stilwell/escomplex-coffee",
+  "bugs": "https://github.com/jared-stilwell/escomplex-coffee/issues",
   "license": "MIT",
   "author": "Phil Booth <pmbooth@gmail.com> (https://github.com/philbooth)",
   "main": "./lib",
   "repository": {
     "type": "git",
-    "url": "https://github.com/philbooth/escomplex-coffee.git"
+    "url": "https://github.com/jared-stilwell/escomplex-coffee.git"
   },
   "keywords": [
     "escomplex",
