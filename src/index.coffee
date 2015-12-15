@@ -42,7 +42,7 @@ getAst = (source, ignoreErrors) ->
       line: ast.locationData.first_line
     },
     end: {
-      line: lastExp.locationData.last_line
+      line: (lastExp ? ast).locationData.last_line
     }
   }
   ast

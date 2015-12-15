@@ -32,6 +32,10 @@ suite 'escomplex-coffee:', ->
       assert.doesNotThrow ->
         escomplex.analyse 'foo = "#{foo}"\nunless foo isnt "foo"\n  console.log "foo"\n  foo = undefined\nelse\n  console.log foo'
 
+    test 'analyse does not throw when source is valid CoffeeScript comment', ->
+      assert.doesNotThrow ->
+        escomplex.analyse '# comment'
+
     test 'analyse does not throw when source is valid array', ->
       assert.doesNotThrow ->
         escomplex.analyse [
